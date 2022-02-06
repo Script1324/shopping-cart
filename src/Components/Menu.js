@@ -29,7 +29,8 @@ function Menu() {
                        <li>Electronics</li>
                         <li >Jewelery</li>
                         <li >Men's Clothing</li>
-                        <li > Women's Clothing</li>
+                        <li> Women's Clothing</li>
+                        <li>this is added</li>
                    
                    </div>
                </ul>
