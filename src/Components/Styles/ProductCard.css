@@ -54,6 +54,6 @@
 }
 @media(max-width:700px){
     .ProductCard-Container{
-        width: 550px;
+        width: 500px;
     }
 }
