@@ -39,6 +39,8 @@ function Menu() {
                       <label style={{color:"white",marginLeft:"20px",fontWeight:"bold"}}>{state.prod_Count}</label>
                              <ShoppingCartIcon style={{color:"rgb(236, 52, 39)"}} onClick={toggleModal}/>  
                         
+
+                        
                   </section>
 
         </div>
