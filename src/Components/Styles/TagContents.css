@@ -1,0 +1,25 @@
+.TagContents-Container{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    transition: 300ms ease;
+    background-color: rgb(248, 250, 252);
+}
+.TagContents-Container:hover{
+ transform: scale(1.05);
+ background-color: rgb(252, 248, 252);
+}
+.TagContents-Icon{
+width: 200px;
+height: 80%;
+display: flex;
+justify-content: center;
+}
+.TagContents-description{
+    padding: 10px;
+}
+@media (max-width:700px){
+    .TagContents-Container{
+        width: 70%;
+    }
+}

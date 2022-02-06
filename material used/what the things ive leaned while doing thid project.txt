@@ -1,0 +1,22 @@
+functional component
+find method
+map method 
+usereducer
+context api 
+react router
+use params
+use location
+use effect 
+link
+api 
+deconstruct object 
+deconstruct array
+aos (animate on scroll)
+google fonts
+material ui (minimum)
+material ui icons
+media quiries 
+psuedo elements 
+conditional rendering
+modal renders in react portal 
+responsive design 

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.Menu-Container{
+    width: 100%;
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 90;
+    top: 0;
+    position: sticky;
+}
+.Menu-Container section{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.IconMenu p{
+    font-family: 'Roboto', sans-serif;
+    
+}   
+.Menu-Container ul{
+    display: flex;
+}
+.Menu-Container ul li{
+    list-style: none;
+    padding:15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    transition: 200ms ease;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+.drop-list{
+    display: flex;
+    
+}
+.drop-list_active{
+    opacity: 1;
+    height: auto;
+    display: flex;
+
+}
+.Menu-Container ul li:hover{
+    transform: scale(1.03);
+  
+}
+@media(max-width:700px){
+    
+.Menu-Container ul{
+    display:flex;
+    flex-direction: column;
+    padding-left: 10px;
+    width: 100%;
+   }
+  .Menu-Container{
+    padding: 5px;
+ }
+ .Menu-Container section{
+     position: absolute;
+     top: 20px;
+     right: 20px;
+ }
+.drop-list{
+    display: flex;
+    flex-direction: column;
+    opacity:1;
+    z-index: -1;
+    margin-left: -100%;
+    transition: all 900ms ease;
+   
+}
+.drop-list_active{
+    display: flex;
+    flex-direction: column;
+    transition: all 500ms ease;
+    left: 0px;
+    width: 100%;
+}
+.drop-list_active li{
+    background-color: rgba(0,0,0,.3);
+}
+
+}

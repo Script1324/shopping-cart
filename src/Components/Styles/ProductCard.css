@@ -1,0 +1,54 @@
+.ProductCard-Container{
+    width: 300px;
+    min-height: 350px;
+    height: auto;
+    margin-bottom: 20px;
+    overflow: auto;
+    border:1px solid rgb(204, 202, 202);
+    box-shadow: 0 3px 9px rgb(235, 229, 229);
+    transition: 300ms ease;
+}
+.ProductCard-Container:hover{
+    transform: scale(1.05);
+    box-shadow: 0 2px 15px rgb(168, 165, 165);
+}
+.ProductImg-Container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ProductImg-Container img{
+    width:80%;
+    height: 80%;
+    position: relative;
+}
+.viewMore{
+    position: absolute;
+    opacity: 0;
+}
+.viewMore button{
+    display: flex;
+    align-items: center;
+    color: orangered;
+    padding: 10px;
+    font-weight: bold;
+    transition: 300ms ease;
+    text-decoration: none;
+    border:1px solid red;
+    text-decoration: none;
+    background-color: transparent;
+}
+.ProductCard-Container:hover .viewMore{
+    opacity:1 ;
+    transform: scale(1.07);
+}
+.Product-Description h4{
+   
+    padding: 10px 0;
+    color: red;
+}
+.Product-Description{
+    padding: 5px;
+}

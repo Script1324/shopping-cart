@@ -1,0 +1,15 @@
+.Product-Container{
+    height: auto;
+    padding: 20px 120px;
+}
+.Product-Header{
+    display: flex;
+    justify-content: space-between;
+}
+.Card-Container{
+    grid-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    justify-content: space-evenly;
+}
